@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+input{border: none;}
+a{text-decoration: none;}
+li{list-style: none;}
+
 /*解决高度塌陷问题*/
 .clearfix:before,.clearfix:after{
     content: ' ';
@@ -162,7 +166,7 @@
 .header .bot_con .botConMid .botConMidLeft{
     height: 100%;
     width: 550px;
-    background: gold url("../img/logo.png") no-repeat;
+    background: url("../img/logo.png") no-repeat;
     background-size: 50% 100%;
     padding-right: 20px;
     /*background-color: gold;*/
@@ -177,29 +181,96 @@
 }
 .header .bot_con .botConMid .botConMidRight{
     height: 100%;
-    width: 450px;
-    background-color: deepskyblue;
+    /*width: 450px;*/
+    /*background-color: deepskyblue;*/
 }
 .header .bot_con .botConMid .botConMidRight .inputBox{
     height: 38px;
     margin-top: 44px;
 }
-.header .bot_con .botConMid .botConMidRight .inputBox input:first-child{
+.header .bot_con .botConMid .botConMidRight .inputBox .finput{
     height: 35px;
-    width: 163px;
+    width: 158px;
     margin-right: 23px;
+    padding-left: 5px;
+    background-color: #ffffff;
 }
-.header .bot_con .botConMid .botConMidRight .inputBox .passW{
-    height: 35px;
-    width: 50px;
+.header .bot_con .botConMid .botConMidRight .inputBox .ptn{
+    display: inline-block;
+    color: #d5dadf;
+    background-color: #ffffff;
 }
-.header .bot_con .botConMid .botConMidRight .inputBox input:last-child{
+.header .bot_con .botConMid .botConMidRight .inputBox .ptn .sinput{
     height: 35px;
-    width: 107px;
+    width: 89px;
+    padding-left: 5px;
+    background-color: #ffffff;
+}
+.header .bot_con .botConMid .botConMidRight .inputBox .ptn a{
+    font-size: 12px;
+    padding-left: 11px;
+    padding-right: 12px;
+    color: #00b38a;
+    text-decoration: none;
+}
+.header .bot_con .botConMid .botConMidRight .inputBox .tinput{
+    height: 33px;
+    width: 100px;
+    padding-left: 5px;
     margin-left: 9px;
     border: 1px solid white;
+    color: #ffffff;
+    background-color: #00b38a;
+}
+/*设置search样式*/
+.search{
+    height: 101px;
+    background-color: #f2f5f4;
+    padding-top: 31px;
+}
+.search .searchMid{
+    width: 937px;
+    /*background-color: red;*/
+}
+.search .searchMid .searTn{
+    height: 46px;
+    /*background-color: red;*/
+}
+.search .searchMid .searTn input{
+    height: 44px;
+    width: 777px;
+    border: 1px solid #e8e8e8;
+    color: #757575;
+    padding-left: 16px;
+}
+.search .searchMid .searTn a{
+    display: block;
+    float: right;
+    height: 46px;
+    width: 142px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 46px;
+    color: #ffffff;
+    background-color: #00b38a;
+}
+.search .searchMid .ulBtn{
+    margin-top: 13px;
+}
+.search .searchMid .ulBtn li{
+    float: left;
+    font-size: 12px;
+    /*color: #00b38a;*/
+    margin-right: 19px;
+}
+.search .searchMid .ulBtn li a{
+    color: #00b38a;
+}
+.search .searchMid .ulBtn li:first-child{
+    margin-right: 10px;
+    /*color: #777777;*/
+}
+.search .searchMid .ulBtn li:first-child a{
+    color: #777777;
 }
 
-
-
-/*设置search样式*/
