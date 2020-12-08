@@ -6,6 +6,13 @@
 input{border: none;}
 a{text-decoration: none;}
 li{list-style: none;}
+/*便于测试*/
+body{
+    height: 20000px;
+}
+/*便于测试*/
+/*便于测试中的所有代码，在页面完成后都需要全部删除*/
+
 
 /*解决高度塌陷问题*/
 .clearfix:before,.clearfix:after{
@@ -273,4 +280,174 @@ li{list-style: none;}
 .search .searchMid .ulBtn li:first-child a{
     color: #777777;
 }
-
+/*设置banner样式*/
+.banner{
+    height: 363px;
+    padding-top: 46px;
+    /*background-color: blue;*/
+}
+.banner .bannCon{
+    padding-right: 4px;
+}
+.banner .bannCon .bannConL{
+    height: 363px;
+    width: 304px;
+    /*background-color: skyblue;*/
+}
+.banner .bannCon .bannConL div{
+    margin-left: 3px;
+    margin-bottom: 25px;
+}
+.banner .bannCon .bannConL div:first-child{
+    /*background-color: papayawhip;*/
+}
+.banner .bannCon .bannConL div ul li{
+    float: left;
+    margin-right: 26px;
+}
+.banner .bannCon .bannConL div ul li a{
+    font-size: 11px;
+    color: #555555;
+}
+.banner .bannCon .bannConL div ul .Fli{
+    margin-right: 12px;
+}
+.banner .bannCon .bannConL div ul .Fli a{
+    font-size: 17px;
+    color: #333333;
+}
+.banner .bannCon .bannConL div .ulSpan{
+    float: right;
+    padding-top: 1px;
+    font-size: 11px;
+    font-family: 宋体;
+    color: #838383;
+}
+.banner .bannCon .bannConR{
+    position: relative;
+    height: 347px;
+    width: 841px;
+    /*background-color: gold;*/
+}
+.banner .bannCon .bannConR:hover span{
+    display: block;
+}
+.banner .bannCon .bannConR img{
+    position: absolute;
+    height: 347px;
+    width: 841px;
+}
+.banner .bannCon .bannConR span{
+    display: none;
+    position: absolute;
+    top: 45%;
+    font-family: "宋体";
+    font-size: 33px;
+    font-weight: bold;
+    color: #757478;
+    /*background-color: red;*/
+}
+.banner .bannCon .bannConR .btnL{
+    left: 20px;
+}
+.banner .bannCon .bannConR .btnR{
+    right: 20px;
+}
+/*设置content的样式*/
+.content{
+    margin-top: 32px;
+    height: 1586px;
+    background-color: green;
+}
+.content .contMid{
+    height: 100%;
+}
+.content .contMid .line1 .top{
+    border-bottom: 1px solid #e8e8e8;
+}
+.content .contMid .line1 .top a{
+    display: inline-block;
+    color: #999999;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 17px;
+}
+.content .contMid .line1 .top a:first-child{
+    color: #333333;
+    margin-left: 4px;
+    margin-right: 58px;
+    border-bottom: 2px solid #000000;
+}
+.content .contMid .line1 .bottom{
+    padding-top: 26px;
+    padding-bottom: 18px;
+}
+.content .contMid .line1 .bottom span{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-left: 4px;
+    margin-right: 11px;
+    border-radius: 50%;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #e6e6e6;
+}
+.content .contMid .line1 .bottom a{
+    color: #999999;
+    font-size: 12px;
+}
+.content .contMid .line1 .bottom a:last-child{
+    color: #00b38a;
+    margin-left: 56px;
+}
+.content .contMid .listBox .ulBox li .job{
+    width: 352px;
+    height: 160px;
+    padding: 24px 17px 14px 17px;
+    border: 1px solid #eaeeed;
+}
+.content .contMid .listBox .ulBox li .job .pTxt1{
+    margin-bottom: 13px;
+    height: 15px;
+}
+.content .contMid .listBox .ulBox li .job .pTxt1 .jobName{
+    color: #333333;
+    font-size: 15px;
+    margin-right: 8px;
+}
+.content .contMid .listBox .ulBox li .job .pTxt1 .time{
+    color: #999999;
+    font-size: 13px;
+    margin-right: 8px;
+}
+.content .contMid .listBox .ulBox li .job .pTxt1 .money{
+    color: #fa6041;
+    font-size: 13px;
+    margin-left: 77px;
+}
+.content .contMid .listBox .ulBox li .job .pTxt2{
+    margin-bottom: 12px;
+    height: 13px;
+}
+.content .contMid .listBox .ulBox li .job .pTxt2 .txtSp1{
+    color: #777777;
+    font-size: 13px;
+}
+.content .contMid .listBox .ulBox li .job .pTxt3{
+    padding-bottom: 20px;
+    height: 28px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+.content .contMid .listBox .ulBox li .job .pTxt3 .txtSp2{
+    display: inline-block;
+    font-size: 11px;
+    line-height: 26px;
+    text-align: center;
+    color: #999999;
+    height: 26px;
+    width: 71px;
+    border: 1px solid #f0f0f0;
+    margin-right: 10px;
+}
