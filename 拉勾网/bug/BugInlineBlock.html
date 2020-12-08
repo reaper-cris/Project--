@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>同一行内的两个行内块元素高度问题</title>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			div input{
+				height: 50px;
+				width: 100px;
+				background-color: yellow;
+				border: 0px;
+			}
+			div span{
+				display: inline-block;
+				background-color: gold;
+				height: 50px;
+				width: 100px;
+				vertical-align: top;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<input type="text" name="" id="" value="请输入手机号" /><span >
+				hallo
+			</span>
+		</div>
+		<h1>bug总结：</h1>
+		<p>
+			跟基线对齐的方式有关，如果你给第二个span设置一个vertical-align: top;就可以将两个行内块元素对齐。
+		</p>
+	</body>
+</html>
