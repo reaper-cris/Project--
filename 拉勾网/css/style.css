@@ -7,9 +7,9 @@ input{border: none;}
 a{text-decoration: none;}
 li{list-style: none;}
 /*便于测试*/
-body{
-    height: 20000px;
-}
+/*body{*/
+/*    height: 20000px;*/
+/*}*/
 /*便于测试*/
 /*便于测试中的所有代码，在页面完成后都需要全部删除*/
 
@@ -356,8 +356,8 @@ body{
 /*设置content的样式*/
 .content{
     margin-top: 32px;
-    height: 1586px;
-    background-color: green;
+    /*height: 1586px;*/
+    /*background-color: green;*/
 }
 .content .contMid{
     height: 100%;
@@ -369,6 +369,7 @@ body{
     display: inline-block;
     color: #999999;
     font-size: 15px;
+    font-weight: bold;
     padding-top: 20px;
     padding-bottom: 17px;
 }
@@ -382,7 +383,7 @@ body{
     padding-top: 26px;
     padding-bottom: 18px;
 }
-.content .contMid .line1 .bottom span{
+.content .contMid .line1 .bottom .fSpan{
     display: inline-block;
     height: 18px;
     width: 18px;
@@ -402,11 +403,18 @@ body{
     color: #00b38a;
     margin-left: 56px;
 }
+.content .contMid .listBox .ulBox li{
+    margin-bottom: 16px;
+}
 .content .contMid .listBox .ulBox li .job{
-    width: 352px;
+    width: 350px;
     height: 160px;
-    padding: 24px 17px 14px 17px;
+    padding: 24px 17px 14px 23px;
     border: 1px solid #eaeeed;
+}
+.content .contMid .listBox .ulBox li .job:nth-of-type(2){
+    margin-right: 17px;
+    margin-left: 17px;
 }
 .content .contMid .listBox .ulBox li .job .pTxt1{
     margin-bottom: 13px;
@@ -415,6 +423,7 @@ body{
 .content .contMid .listBox .ulBox li .job .pTxt1 .jobName{
     color: #333333;
     font-size: 15px;
+    font-weight: bold;
     margin-right: 8px;
 }
 .content .contMid .listBox .ulBox li .job .pTxt1 .time{
@@ -425,7 +434,7 @@ body{
 .content .contMid .listBox .ulBox li .job .pTxt1 .money{
     color: #fa6041;
     font-size: 13px;
-    margin-left: 77px;
+    margin-left: 70px;
 }
 .content .contMid .listBox .ulBox li .job .pTxt2{
     margin-bottom: 12px;
@@ -451,3 +460,263 @@ body{
     border: 1px solid #f0f0f0;
     margin-right: 10px;
 }
+.content .contMid .listBox .ulBox li .job .imgBox{
+    margin-top: 18px;
+}
+.content .contMid .listBox .ulBox li .job .imgBox img{
+    display: block;
+    /*float: left;*/
+    margin-right: 14px;
+    height: 40px;
+    width: 40px;
+}
+.content .contMid .listBox .ulBox li .job .imgBox .imgTxt .company{
+    font-size: 12px;
+    color: #555555;
+}
+.content .contMid .listBox .ulBox li .job .imgBox .imgTxt .companyLabel{
+    color: #999999;
+    font-size: 12px;
+}
+.content .contMid .more{
+    width: 387px;
+    height: 42px;
+    border: 1px solid #00b38a;
+    margin: 0 auto 47px;
+    color: #00b38a;
+    font-size: 15px;
+    line-height: 42px;
+    text-align: center;
+}
+.content .contMid .listBox1 .oneBox{
+    margin-bottom: 16px;
+}
+.content .contMid .listBox1 .oneBox .firstB{
+    /*background-color: yellow;*/
+    height: 286px;
+    width: 242px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border: 1px solid #eeeeee;
+    margin-right: 16px;
+}
+.content .contMid .listBox1 .oneBox .firstB:first-child{
+    margin-left: 1px;
+}
+.content .contMid .listBox1 .oneBox .firstB:last-child{
+    margin-right: 0px;
+}
+.content .contMid .listBox1 .oneBox .firstB img{
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin: 20px auto 17px;
+}
+.content .contMid .listBox1 .oneBox .firstB .pF{
+    height: 17px;
+    line-height: 17px;
+    color: #333333;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.content .contMid .listBox1 .oneBox .firstB .pS{
+    font-size: 12px;
+    color: #999999;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.content .contMid .listBox1 .oneBox .firstB .pT{
+    font-size: 12px;
+    color: #555555;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-bottom: 18px;
+    /*这三行用来实现“强制不换行并隐藏”*/
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content .contMid .listBox1 .oneBox .firstB .bottomB{
+    margin: 0 auto;
+    /*background-color: red;*/
+    border-top: 1px dashed #e0e0e0;
+    padding-top: 20px;
+}
+.content .contMid .listBox1 .oneBox .firstB .bottomB div{
+    /*background-color: green;*/
+    /*margin: 0 auto;*/
+}
+.content .contMid .listBox1 .oneBox .firstB .bottomB .divF{
+    width: 76px;
+}
+.content .contMid .listBox1 .oneBox .firstB .bottomB .divS{
+    width: 79px;
+}
+.content .contMid .listBox1 .oneBox .firstB .bottomB .divT{
+    width: 85px;
+}
+.content .contMid .listBox1 .oneBox .firstB .bottomB div:nth-of-type(2){
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+.content .contMid .listBox1 .oneBox .firstB .bottomB div p{
+    font-size: 11px;
+    color: #00b38a;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.content .contMid .listBox1 .oneBox .firstB .bottomB div span{
+    font-size: 11px;
+    color: #c2a5a5;
+    text-align: center;
+    display: block;
+    /*margin: 0 auto;*/
+}
+.content .contMid .line3{
+
+}
+.content .contMid .line3 .bottom a{
+    margin-right: 18px;
+}
+.content .contMid .line3 .bottom div span{
+    font-size: 12px;
+    color: #99a5c2;
+}
+.content .contMid .line3 .bottom div img{
+    margin-bottom: 2px;
+}
+/*设置footer的样式*/
+.footer{
+    margin-top: 76px;
+    /*background-color: yellow;*/
+    height: 390px;
+    border-top: 1px solid #ebebeb;
+}
+.footer .footMid .footTop{
+    /*width: 400px;*/
+    /*height: 400px;*/
+    background-color: white;
+}
+.footer .footMid .footTop .appBox{
+    margin-top: 49px;
+    margin-bottom: 64px;
+    width: 310px;
+    height: 172px;
+    /*background-color: powderblue;*/
+    border-right: 1px solid #e8e8e8;
+    padding-left: 5px;
+}
+.footer .footMid .footTop .appBox .smallB{
+    border: 1px solid #00b38a;
+    height: 40px;
+    width: 180px;
+    color: #00b38a;
+    font-size: 12px;
+    line-height: 40px;
+    /*text-align: center;*/
+    margin-bottom: 16px;
+    /*margin-left: 5px;*/
+}
+.footer .footMid .footTop .appBox .smallB span{
+    display: block;
+    float: left;
+    margin-top: 11px;
+    margin-left: 30px;
+    margin-right: 4px;
+    height: 15px;
+    width: 15px;
+    background: url("../img/sprite2.png") no-repeat;
+}
+.footer .footMid .footTop .appBox .smallB:nth-of-type(1) span {
+    background-position: -147px -220px;
+}
+.footer .footMid .footTop .appBox .smallB:nth-of-type(2) span {
+    background-position: -214px -54px;
+}
+.footer .footMid .footTop .appBox .smallB3{
+    color: #555555;
+    font-size: 12px;
+}
+.footer .footMid .footTop .appBox .smallB3 span{
+    margin-right: 26px;
+}
+.footer .footMid .footTop .dlList{
+    margin-top: 49px;
+}
+.footer .footMid .footTop .dlList dl{
+    margin-left: 160px;
+}
+.footer .footMid .footTop .dlList dl:first-child {
+    margin-left: 100px;
+}
+.footer .footMid .footTop .dlList dl dt{
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-family: 宋体;
+    font-weight: bold;
+    color: #555555;
+}
+.footer .footMid .footTop .dlList dl dd{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #555555;
+}
+.footer .footMid .footBot{
+    width: 100%;
+    height: 60px;
+    padding-top: 28px;
+    padding-bottom: 12px;
+    background-color: #fafafa;
+}
+.footer .footMid .footBot .smallF p{
+    height: 58px;
+    /*background-color: gold;*/
+    font-size: 12px;
+    color: #d5dadf;
+}
+.footer .footMid .footBot .smallF .pStyle{
+    line-height: 58px;
+    text-align: center;
+    margin-right: 20px;
+}
+.footer .footMid .footBot .smallF .pStyle span{
+    display: block;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 22px;
+    background: url("../img/sprite2.png") no-repeat;
+    background-position: -150px -184px;
+}
+.footer .footMid .footBot .smallF .p3{
+    padding: 6px 0px 10px;
+    height: 42px;
+    border: 1px solid #d5dadf;
+}
+.footer .footMid .footBot .smallF .p3 .span2{
+    display: block;
+    float: left;
+    height: 42px;
+    margin-right: 15px;
+    /*width: 100%;*/
+}
+.footer .footMid .footBot .smallF .p3 .span1{
+    display: block;
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-right: 3px;
+    background: url("../img/sprite2.png") no-repeat;
+    background-position: -130px -19px;
+}
+.footer .footMid .footBot .smallF .p4 img{
+    margin-top: 20px;
+}
+
