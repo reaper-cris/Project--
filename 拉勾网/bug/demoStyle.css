@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix:before,.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+.floatL{float: left;}
+.floatR{float: right;}
+.loginPage .top{
+    height: 360px;
+    background-color: #00b38a;
+}
+.loginPage .con{
+    width: 704px;
+    /*height: 490px;*/
+    position: absolute;
+    top: 73px;
+    left: 332px;
+    /*background-color: yellow;*/
+    /*margin: 0 auto;*/
+}
+.loginPage .con .imgBox{
+    height: 83px;
+    background-color: #00b38a;
+}
+.loginPage .con .imgBox img{
+    height: 48px;
+}
+.loginPage .con .conBox{
+    border: 1px solid #dce1e6;
+    background-color: white;
+}
+.loginPage .con .conBox .conBoxTop{
+    padding: 6px;
+}
+.loginPage .con .conBox .conBoxTop img:nth-of-type(2){
+    /*height: ;*/
+}
+.loginPage .con .conBox .leftBox{
+    /*background-color: red;*/
+    width: 343px;
+    height: 277px;
+    padding-left: 79px;
+    margin-bottom: 68px;
+    border-right: 1px dashed #ebebeb;
+}
+.loginPage .con .conBox .leftBox .txt1{
+    display: inline-block;
+    font-size: 15px;
+    width: 150px;
+    color: #00b38a;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #00b38a;
+    text-align: center;
+}
+.loginPage .con .conBox .leftBox .txt2{
+    display: inline-block;
+    font-size: 15px;
+    color: #333333;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ebebeb;
+    width: 140px;
+    text-align: center;
+
+}
+.loginPage .con .conBox .leftBox input{
+    border: none;
+    border-bottom: 1px solid #ebebeb;
+    height: 42px;
+    width: 290px;
+    margin-top: 20px;
+}
+.loginPage .con .conBox .leftBox .txt3{
+    color: #00b38a;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-right: 58px;
+}
+.loginPage .con .conBox .leftBox input:nth-of-type(3){
+    margin-top: 25px;
+    height: 46px;
+    background-color: #00b38a;
+    color: #ffffff;
+    font-size: 17px;
+}
+.loginPage .con .conBox .leftBox .or{
+    color: #b5c5de;
+    line-height: 12px;
+    font-size: 12px;
+    background-color: white;
+    position: absolute;
+    top: 272px;
+    left: 417px;
+}
+.loginPage .con .conBox .rightBox{
+    /*background-color: yellow;*/
+    padding: 72px 84px 62px 50px;
+}
+.loginPage .con .conBox .rightBox p{
+    font-size: 12px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+.loginPage .con .conBox .rightBox p:nth-of-type(2){
+    font-size: 17px;
+    color: #00b38a;
+    /*margin-top: 12px;*/
+    margin-bottom: 45px;
+}
+.loginPage .con .conBox .rightBox img{
+    margin-right: 20px;
+}
+.loginPage .con .conBox .rightBox img:nth-of-type(4){
+    margin-right: 0px;
+}
+/*设置那一个小三角*/
+.btnRed:after{
+    content:"";
+    display:block;
+    position: absolute;
+    left:50%;
+    bottom:305px;
+    margin-left:-207px;
+    border:10px solid transparent;
+    border-bottom-color:#fff;
+}
+.btnWhit:before{
+    content:"";
+    display:block;
+    position: absolute;
+    left:55%;
+    bottom:306px;
+    margin-left:-242px;
+    border:10px solid transparent;
+    border-bottom-color:#00b38a;
+}
