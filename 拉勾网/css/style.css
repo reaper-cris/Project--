@@ -666,8 +666,12 @@ li{list-style: none;}
     font-size: 14px;
     color: #555555;
 }
+.footer .footMid .change{
+    /*后来补充的，原先设计的一点小问题，已经修改完毕*/
+    background-color: #fafafa;
+}
 .footer .footMid .footBot{
-    width: 100%;
+    /*width: 100%;*/
     height: 60px;
     padding-top: 28px;
     padding-bottom: 12px;
