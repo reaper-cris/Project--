@@ -1,0 +1,172 @@
+/*设置header的样式*/
+header{
+    height: 77px;
+    padding-top: 18px;
+    background-color: white;
+    border-bottom: 1px solid #9D9895;
+}
+header .hM{
+    width: 1260px;
+    height: 50px;
+    margin: 0 auto;
+    /*background-color: gold;*/
+}
+header .hM .leftH{
+    float: left;
+    width: 392px;
+    margin-right: 66px;
+    /*background-color: green;*/
+}
+header .hM .leftH a img{
+    height: 50px;
+}
+header .hM .leftH .city{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*background-color: red;*/
+}
+header .hM .leftH .city img{
+    margin-top: 10px;
+}
+header .hM .leftH .city .span1{
+    margin-right: 10px;
+}
+header .hM .leftH .city .changeCity a{
+    display: inline-block;
+    padding: 10px 10px 0px 10px;
+    height: 25px;
+    color: white;
+    text-decoration: none;
+    /*width: 60px;*/
+    background-color: #9D9895;
+}
+header .hM .rightH{
+    float: right;
+    width: 800px;
+    /*background-color: greenyellow;*/
+}
+header .hM .rightH ul{
+    float: left;
+    padding: 17px 0px;
+}
+header .hM .rightH ul li{
+    float: left;
+    margin-right: 30px;
+}
+header .hM .rightH ul li>a{
+    color: black;
+    text-decoration: none;
+}
+header .hM .rightH .rightBox{
+    float: right;
+    /*background-color: orange;*/
+}
+header .hM .rightH .rightBox img{
+    margin-top: 10px;
+    margin-right:20px;
+}
+header .hM .rightH .rightBox span a{
+    display: inline-block;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+/*开始设置footer的样式*/
+footer{
+    height: 126px;
+    background-color: #3E2D23;
+    padding-top: 36px;
+    box-sizing: border-box;
+}
+footer .ulBox{
+    width: 1200px;
+    margin: 0 auto;
+}
+footer .ulBox ul{
+    margin-bottom: 36px;
+}
+footer ul li{
+    float: left;
+    color: white;
+}
+footer ul .L1{
+    padding: 0 20px;
+    border-right: 1px solid white;
+}
+footer ul .L2{
+    margin-right: 40px;
+}
+footer ul .L21{
+    margin-left: 80px;
+}
+footer .ulBox p{
+    text-align: center;
+}
+footer .ulBox p span{
+    color: #ffffff;
+    margin-right: 40px;
+}
+article{
+    background-color: white;
+    text-align: center;
+    /*height: 1000px;*/
+    margin-top: 65px;
+}
+article ul{
+    margin: 0 auto;
+    width: 1250px;
+}
+article ul li{
+    float: left;
+    box-sizing: border-box;
+    height: 385px;
+    width: 290px;
+    padding: 12px;
+    border: 1px solid #E2E2E2;
+    /*background-color: red;*/
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+article ul li:nth-of-type(4){
+    margin-right: 0;
+}
+article ul li img{
+    width: 263px;
+    margin-bottom: 19px;
+}
+article ul li p{
+    margin-bottom: 19px;
+    font-size: 16px;
+    color: #4E6259;
+}
+article ul li span{
+    color: #874E3D;
+    font-size: 16px;
+    font-weight: bolder;
+}
+article .num{
+    width: 1250px;
+    margin: 25px auto;
+    text-align: right;
+    /*background-color: #874E3D;*/
+}
+article .num img{
+    height: 14px;
+    margin-top: 9px;
+
+}
+article .num span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    /*background-color: orange;*/
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 7px;
+}
