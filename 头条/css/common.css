@@ -1,0 +1,130 @@
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;//查一下意思
+}
+article{
+    flex: 1;
+    overflow-y: auto;
+    /*background-color: greenyellow;*/
+    margin-top: 0.3rem;
+    padding: 0 0.2rem;
+}
+
+
+
+header{
+    height: 1.59rem;
+    border-bottom: 1px solid #f1f1f1;
+}
+header .search{
+    height: 0.73rem;
+    background-color: #c34943;
+    padding: 11px 27px;
+}
+header .search .searchCon{
+    background-color: white;
+    height: 100%;
+    /*overflow: hidden;*/
+    line-height: 0.8rem;
+    border-radius: 0.06rem;
+}
+header .search .searchCon i{
+   font-size: 0.27rem;
+    float: left;
+    margin-left: 0.2rem;
+    margin-right: 0.04rem;
+}
+header .search .searchCon span{
+    display: inline-block;
+    font-size: 0.27rem;
+    width: 6rem;
+    color: #1a1a1a;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+header .head_nav{
+    position: relative;
+}
+header .head_nav .nav_list{
+    overflow-x: auto;
+}
+header .head_nav .nav_list ul{
+    width: 140%;
+    /*overflow-x: auto;*/
+}
+header .head_nav .nav_list ul li{
+    float: left;
+    padding: 0 0.19rem;
+    line-height: 0.64rem;
+    font-size: 0.28rem;
+}
+header .head_nav .nav_list ul li a{
+    color: #1b1b1b;
+}
+header .head_nav .nav_list ul li .redTxt{
+    color: red;
+}
+
+header .head_nav .lists_icon{
+    position: absolute;
+    width: 0.74rem;
+    height: 0.64rem;
+    top: 0;
+    right: 0;
+    background-color: white;
+    text-align: center;
+}
+header .head_nav .lists_icon .icon-liebiao{
+    font-size: 0.3rem;
+    color: #3d3d3d;
+    /*text-align: center;*/
+    line-height: 0.64rem;
+}
+
+
+
+
+
+
+footer{
+    height: 0.79rem;
+    border-top: 1px solid #E2E2E2;
+    background-color: #f7f7f7;
+}
+footer ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+footer ul li{
+    /*float: left;*/
+    flex: 1;
+    height: 100%;
+    /*padding: 0.15rem 0.43rem;*/
+    /*background-color: pink;*/
+
+}
+/*footer ul li:nth-of-type(5){*/
+/*    margin-right: 0;*/
+/*}*/
+footer ul li a{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li a .iconfont{
+    font-size: 0.36rem;
+    /*color: #f95959;*/
+    line-height: 1;
+}
+footer ul li a span{
+    font-size: 0.16rem;
+    line-height: 1;
+    margin-top: 0.06rem;
+}
