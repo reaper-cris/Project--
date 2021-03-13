@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Jay Skript and the Domsters</title>
+		<link rel="stylesheet" type="text/css" href="css/color.css"/>
+		<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+		<link rel="stylesheet" type="text/css" href="css/typography.css"/>
+<!--		<script src="js/modernizr.custom.80761.js"></script>-->
+	</head>
+	<body>
+		<!--头部文档，主要包含导航及其以上的内容-->
+		<header>
+			<img src="img/logo.gif" alt="Jay Skript and the Domsters"/>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="photos.html">Photos</a></li>
+					<li><a href="live.html">Live</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!--页面的主体部分-->
+		<article>
+			<h1>Contact the band</h1>
+			<form method="post" action="submit.html">
+				<fieldset>
+					<p>
+						<label for="name">Name:</label>
+						<input type="text" name="name" id="name" placeholder="Your name" required="required" />
+					</p>
+					<p>
+						<label for="email">Email:</label>
+						<input type="email" name="email" id="email" placeholder="Your email address" required="required" />
+					</p>
+					<p>
+						<label for="message">Message:</label>
+						<textarea id="message" name="message" rows="7" cols="45" placeholder="Write your message here." required="required"></textarea>
+					</p>
+					<input type="submit" value="Send" />
+				</fieldset>
+			</form>
+			
+			
+		</article>
+		<script src="js/global.js"></script>
+	</body>
+</html>
+<!--
+	说明：1、直接通过HBuilder打开的contact.html页面，在提交后是无法跳转到submit.html，原因是HBuilder打开的项目默认添加了一个服务器
+	2、这个练习中只要不通过HBuilder来打开就可以正常提交
+-->
